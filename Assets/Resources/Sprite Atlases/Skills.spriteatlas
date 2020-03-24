@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skills
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b87d15e89d83d6645a1d4ad5152ee1bd, type: 3}
+    totalSpriteSurfaceArea: 1806618
+    bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: ccb3d73547aadfa43290f24717262da1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: bd52bcd28c0d3d94bb9f1a2be75f86ba, type: 3}
+  - {fileID: 21300000, guid: 457b5f43aad51f040b5abca9bce7f697, type: 3}
+  - {fileID: 21300000, guid: ce766383b7a2054499236bc880c25fe5, type: 3}
+  - {fileID: 21300000, guid: dbcb4c346db01274e89a63211608580d, type: 3}
+  - {fileID: 21300000, guid: 70bfb20acacecf84385809d4ac20a593, type: 3}
+  - {fileID: 21300000, guid: 3d6ef85b47d237849a5b7fae4b0bad85, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Skill-12
+  - Skill-10
+  - Card Covers-07
+  - Card Covers-09
+  - Skill-11
+  - Card Covers-08
+  m_Tag: Skills
+  m_IsVariant: 0

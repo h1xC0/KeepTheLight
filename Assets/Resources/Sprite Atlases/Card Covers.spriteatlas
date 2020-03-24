@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Card Covers
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 489010ebb6136e24aa21d51849df9da5, type: 3}
+    totalSpriteSurfaceArea: 6263470
+    bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: 48895d60ced6c0600232f6508efc3753
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0ad08860354c31d4baecdaed30309346, type: 3}
+  - {fileID: 21300000, guid: 18571512d954c704eb9fb7bcc8593712, type: 3}
+  - {fileID: 21300000, guid: 68c29c84a407f144faa6565256cee82b, type: 3}
+  - {fileID: 21300000, guid: 9d282d948c8c40e458aeeea06730cca1, type: 3}
+  - {fileID: 21300000, guid: 481ecc1885507d04e851285969bc86f1, type: 3}
+  - {fileID: 21300000, guid: 030a958b360a8984c88d1c5c8aaf9163, type: 3}
+  - {fileID: 21300000, guid: 3486df0c43a49524fbb755a8fdf11d79, type: 3}
+  - {fileID: 21300000, guid: a3132dccac519344c9d41897a493a0bd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Card Covers-03
+  - Card Covers-07
+  - Card Covers-08
+  - Card Covers-04
+  - Card Covers-06
+  - Card Back-02
+  - Card Covers-05
+  - Card Covers-09
+  m_Tag: Card Covers
+  m_IsVariant: 0

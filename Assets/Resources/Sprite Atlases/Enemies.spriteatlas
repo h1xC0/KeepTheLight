@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Enemies
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a26b7b18889b94447b99c156d462e89b, type: 3}
+    totalSpriteSurfaceArea: 3633817
+    bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: 245b1588f47604d360fd5d8d4432d1ba
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: efc80297a254f5542b6a406521305469, type: 3}
+  - {fileID: 21300000, guid: 27005fa8870f30242b78ddf28a216174, type: 3}
+  - {fileID: 21300000, guid: f65d2299273d6da45b7b9f59e617aa16, type: 3}
+  - {fileID: -3872965344512613287, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: -5394407314278067479, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: 6677447267547782472, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: -5281515607509461908, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: -1909798533969975043, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: 2354871813130952678, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: -6043905015032691807, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: -4947360597380839670, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: 2518867462708480230, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: 6691735247284871245, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: -7760339864042735720, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: -1635965977806772564, guid: 5614d1a90cf77af4eaffa679fe5eacab, type: 3}
+  - {fileID: 21300000, guid: 8b9faacbb8525b94a8e122dd2efff444, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Crystal-04
+  - Crystal-05
+  - Crystal-06
+  - Shield Crystal-12_7
+  - Shield Crystal-12_6
+  - Shield Crystal-12_5
+  - Shield Crystal-12_4
+  - Shield Crystal-12_2
+  - Shield Crystal-12_1
+  - Shield Crystal-12_0
+  - Shield Crystal-12_9
+  - Shield Crystal-12_8
+  - Shield Crystal-12_12
+  - Shield Crystal-12_10
+  - Shield Crystal-12_11
+  - Crystal-07
+  m_Tag: Enemies
+  m_IsVariant: 0
