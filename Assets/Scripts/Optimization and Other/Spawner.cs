@@ -118,26 +118,26 @@ public class Spawner : MonoBehaviour
     public int CalculateCardDisplay(int skillCardType)
     {
       GameObject pooledCard = ObjectPool.SharedInstance.GetPooledObject("Draggable");
-    if (pooledCard != null)
-      {
-        cardArrangerReference.cards.Add(pooledCard);
-        cardDisplayReference = pooledCard.GetComponent<CardDisplay>();
-        touchManagerReference = pooledCard.GetComponent<TouchManager>();
+      if (pooledCard != null)
+      { 
+          cardArrangerReference.cards.Add(pooledCard);
+          cardDisplayReference = pooledCard.GetComponent<CardDisplay>();
+          touchManagerReference = pooledCard.GetComponent<TouchManager>();
 
-        pooledCard.transform.position = spawnPosition.position;
-        pooledCard.transform.rotation = spawnRotation.rotation;
-        touchManagerReference.canDissolve = false;
-        pooledCard.transform.SetParent(GameObject.FindWithTag("CardParent").transform);
+          pooledCard.transform.position = spawnPosition.position;
+          pooledCard.transform.rotation = spawnRotation.rotation;
+          touchManagerReference.canDissolve = false;
+          pooledCard.transform.SetParent(GameObject.FindWithTag("CardParent").transform);
 
 
 
-        cardDisplayReference.card = cardDataReference[skillCardType];//cardDataReference[Random.Range(0, cardDataReference.Length)];
-        cardDisplayReference.DisplayProperties();
+          cardDisplayReference.card = cardDataReference[skillCardType];//cardDataReference[Random.Range(0, cardDataReference.Length)];
+          cardDisplayReference.DisplayProperties();
 
-        for(int i = 0; i < pooledCard.transform.childCount; i++)
-        {
-          pooledCard.transform.GetChild(i).gameObject.SetActive(true);
-        }
+          for(int i = 0; i < pooledCard.transform.childCount; i++)
+          {
+            pooledCard.transform.GetChild(i).gameObject.SetActive(true);
+          }
           pooledCard.SetActive(true);
           pooledCard.transform.SetSiblingIndex(GameObject.FindWithTag("CardParent").transform.childCount);
 

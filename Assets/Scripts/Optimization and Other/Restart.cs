@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using TMPro;
 
-public class Restart : MonoBehaviour, IPointerClickHandler
+public class Restart : MonoBehaviour
 {
     public SpriteRenderer thisSprite;
 
@@ -19,7 +19,7 @@ public class Restart : MonoBehaviour, IPointerClickHandler
         GetComponent<SpriteRenderer>().enabled = false;
     }
 
-    public void OnPointerClick(PointerEventData eventData)
+    public void ApplySettings()
     {
         switch(developerTool.options[developerTool.value].text)
         {

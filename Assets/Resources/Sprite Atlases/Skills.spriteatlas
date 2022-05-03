@@ -40,14 +40,13 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: b87d15e89d83d6645a1d4ad5152ee1bd, type: 3}
-    totalSpriteSurfaceArea: 1806618
     bindAsDefault: 1
-    storedHash:
-      serializedVersion: 2
-      Hash: ccb3d73547aadfa43290f24717262da1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: bd52bcd28c0d3d94bb9f1a2be75f86ba, type: 3}
@@ -63,5 +62,6 @@ SpriteAtlas:
   - Card Covers-09
   - Skill-11
   - Card Covers-08
+  m_RenderDataMap: {}
   m_Tag: Skills
   m_IsVariant: 0

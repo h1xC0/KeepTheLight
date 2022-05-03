@@ -80,17 +80,22 @@ public class GameLogic : MonoBehaviour
     void Update()
     {
 
-      endTurn.onClick.AddListener(TaskOnClickEndTurn);
-      pauseButton.onClick.AddListener(delegate {
-        TaskOnPause();
-      });
+      // endTurn.onClick.AddListener(TaskOnClickEndTurn);
+      // pauseButton.onClick.AddListener(delegate {
+      //   TaskOnPause();
+      // });
+
+      if (Input.GetKeyDown(KeyCode.Escape))
+      {
+          Application.Quit();
+      }
 
       // Verificam daca nu am ales prea multe carti
       if(Time.frameCount %  fadeTime == 0)
         if(GameObject.FindGameObjectsWithTag("Draggable").Length > 0 && GameObject.FindGameObjectsWithTag("Draggable").Length
         <= startDeckPanel.transform.childCount / 2)
         {
-          next.onClick.AddListener(TaskOnClickNext);
+          // next.onClick.AddListener(TaskOnClickNext);
           next.interactable = true;
           continueChoose = true;
         }
@@ -307,12 +312,12 @@ public class GameLogic : MonoBehaviour
         spawnerReference.SpawnCardsToSelect();
     }
 
-    private void TaskOnClickEndTurn()
+    public void TaskOnClickEndTurn()
     {
       clickedEndTurn = true;
       endTurn.interactable = false;
     }
-    private void TaskOnClickNext()
+    public void TaskOnClickNext()
     {
       destroyUnselectedCards = true;
       clickedNext = true;
@@ -322,7 +327,7 @@ public class GameLogic : MonoBehaviour
       auxiliar = Random.Range(2,10);
     }
 
-    private void TaskOnPause()
+    public void TaskOnPause()
     {
       if(onClickPause)
         onClickPause = false;

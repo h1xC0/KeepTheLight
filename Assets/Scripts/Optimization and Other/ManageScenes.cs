@@ -25,8 +25,7 @@ public class ManageScenes : MonoBehaviour
 
     public void ChangeScene()
     {
-            SceneManager.LoadScene(1);
-
+        SceneManager.LoadScene(1);
     }
 
     public void StartTransition()
